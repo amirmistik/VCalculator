@@ -3,27 +3,27 @@
 
 ### 1.0 SNAPSHOT
 
-__/calc 5+5
+__/calc 5+5__
 
-__/calc 5-5
+__/calc 5-5__
 
-__/calc 5*5
+__/calc 5*5__
 
-__/calc 5/5
+__/calc 5/5__
 
-__/calc 5^5
+__/calc 5^5__
 
-__/calc help - show all commands
+__/calc help - show all commands__
 
 ____
 
 ### 1.1 BETA
 
-__/me
+__/me__
 
-__/nether (x) (z)
+__/nether (x) (z)__
 
-__/over (x) (z)
+__/over (x) (z)__
 
 
 ____

@@ -14,7 +14,7 @@
 ____
 
 ## Future Updates
->Add phantom time trigger
+>Add phantom time trigger\n
 >Add scoreboard for statistic
 
 ###### Creator AMIRMISTIKPLAY

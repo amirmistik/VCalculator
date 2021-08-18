@@ -19,9 +19,9 @@
 
 /me
 
-/nether <x> <z>
+/nether (x) (z)
 
-/over <x> <x>
+/over (x) (z)
 
 
 ____

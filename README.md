@@ -3,34 +3,35 @@
 
 ### 1.0 SNAPSHOT
 
->/calc 5+5
+__/calc 5+5
 
-/calc 5-5
+__/calc 5-5
 
-/calc 5*5
+__/calc 5*5
 
-/calc 5/5
+__/calc 5/5
 
-/calc 5^5
+__/calc 5^5
 
-/calc help - show all commands
+__/calc help - show all commands
 
 ____
 
 ### 1.1 BETA
 
->/me
+__/me
 
-/nether (x) (z)
+__/nether (x) (z)
 
-/over (x) (z)
+__/over (x) (z)
 
 
 ____
 
 ## Future Updates
->Add phantom time trigger
+Add phantom time trigger
 
->Add scoreboard for statistic
+Add scoreboard for statistic
 
 ###### Creator AMIRMISTIKPLAY
+YT: AMIRMISTIKPLAY

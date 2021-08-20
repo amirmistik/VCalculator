@@ -28,6 +28,12 @@ __/over (x) (z)__
 
 ____
 
+### 1.2 BETA
+
+FIX /me bug time info
+____
+
+
 ## Future Updates
 Add phantom time trigger
 

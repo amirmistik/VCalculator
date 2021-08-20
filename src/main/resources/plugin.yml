@@ -1,0 +1,19 @@
+name: VCalculator
+version: ${project.version}
+main: me.vcalculator.vcalculator.Main
+api-version: 1.17
+authors: [AMIRMISTIKPLAY]
+description: Simple vanilla Calculator
+commands:
+  calc:
+    description: Vanilla Calculator
+    usage: /<command> <task>
+  nether:
+    description: Convert x and z to nether
+    usage: /<command> <x> <z>
+  over:
+    description: Convert x and z to over
+    usage: /<command> <x> <z>
+  me:
+    description: Get player statistic
+    usage: /<command>

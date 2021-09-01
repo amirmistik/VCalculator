@@ -3,3 +3,4 @@ me\vcalculator\vcalculator\Main.class
 me\vcalculator\vcalculator\commands\over.class
 me\vcalculator\vcalculator\commands\me.class
 me\vcalculator\vcalculator\commands\ClearCommands.class
+me\vcalculator\vcalculator\commands\End.class

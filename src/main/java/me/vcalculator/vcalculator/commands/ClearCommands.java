@@ -19,46 +19,44 @@ public class ClearCommands implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player){
             Player player = (Player) sender;
-            if(args.length != 1){
-                return false;
-            }
-            String task = args[0];
-            System.out.println(task);
-            if(task.contains("+")){
-                double first = Integer.parseInt(task.split("\\+")[0]);
-                double second = Integer.parseInt(task.split("\\+")[1]);
-                player.sendMessage(task + " = " + (first + second));
-                return true;
-            }
-            else if(task.contains("-")){
-                double first = Integer.parseInt(task.split("-")[0]);
-                double second = Integer.parseInt(task.split("-")[1]);
-                player.sendMessage(task + " = " + (first - second));
-                return true;
-            }
-            else if(task.contains("*")){
-                double first = Integer.parseInt(task.split("\\*")[0]);
-                double second = Integer.parseInt(task.split("\\*")[1]);
-                player.sendMessage(task + " = " + (first * second));
-                return true;
-            }
-            else if(task.contains("/")){
-                double first = Integer.parseInt(task.split("/")[0]);
-                double second = Integer.parseInt(task.split("/")[1]);
-                player.sendMessage(task + " = " + (first / second));
-                return true;
-            }
-            else if(task.contains("^")){
-                double first = Integer.parseInt(task.split("\\^")[0]);
-                double second = Integer.parseInt(task.split("\\^")[1]);
-                player.sendMessage(task + " = " + Math.pow(first,second));
-                return true;
-            }
-            else if(task.contains("help")){
-                player.sendMessage(ChatColor.GOLD + "Примеры команд\n| + - плюс\n| - - минус\n| * - умножение\n| / - деление\n| ^ - возведение в степень\n| help - показывает это сообщение\n| формат команды /calc <task>\n| пример команды /calc 15-5");
-                return true;
-            }
-            else {
+            try {
+                if (args.length != 1) {
+                    return false;
+                }
+                String task = args[0];
+                System.out.println(task);
+                if (task.contains("+")) {
+                    double first = Integer.parseInt(task.split("\\+")[0]);
+                    double second = Integer.parseInt(task.split("\\+")[1]);
+                    player.sendMessage(task + " = " + (first + second));
+                    return true;
+                } else if (task.contains("-")) {
+                    double first = Integer.parseInt(task.split("-")[0]);
+                    double second = Integer.parseInt(task.split("-")[1]);
+                    player.sendMessage(task + " = " + (first - second));
+                    return true;
+                } else if (task.contains("*")) {
+                    double first = Integer.parseInt(task.split("\\*")[0]);
+                    double second = Integer.parseInt(task.split("\\*")[1]);
+                    player.sendMessage(task + " = " + (first * second));
+                    return true;
+                } else if (task.contains("/")) {
+                    double first = Integer.parseInt(task.split("/")[0]);
+                    double second = Integer.parseInt(task.split("/")[1]);
+                    player.sendMessage(task + " = " + (first / second));
+                    return true;
+                } else if (task.contains("^")) {
+                    double first = Integer.parseInt(task.split("\\^")[0]);
+                    double second = Integer.parseInt(task.split("\\^")[1]);
+                    player.sendMessage(task + " = " + Math.pow(first, second));
+                    return true;
+                } else if (task.contains("help")) {
+                    player.sendMessage(ChatColor.GOLD + "Примеры команд\n| + - плюс\n| - - минус\n| * - умножение\n| / - деление\n| ^ - возведение в степень\n| help - показывает это сообщение\n| формат команды /calc <task>\n| пример команды /calc 15-5");
+                    return true;
+                } else {
+                    return false;
+                }
+            } catch (Exception e){
                 return false;
             }
         }

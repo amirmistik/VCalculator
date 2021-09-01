@@ -6,7 +6,7 @@
 
     <groupId>me.vcalculator</groupId>
     <artifactId>VCalculator</artifactId>
-    <version>1.2-BETA</version>
+    <version>1.2.5-BETA</version>
     <packaging>jar</packaging>
 
     <name>VCalculator</name>

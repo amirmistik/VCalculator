@@ -17,3 +17,6 @@ commands:
   me:
     description: Get player statistic
     usage: /<command>
+  end:
+    description: Calculate end only by 2 eye
+    usage: /<command> <x> <z> <f> <x1> <z1> <f1>

@@ -33,6 +33,15 @@ ____
 FIX /me bug time info
 ____
 
+### 1.2.5 BETA
+
+FIX /calc command
+__/end (x) (z) (f) (x1) (z1) (f1)__
+f - degree
+
+
+____
+
 
 ## Future Updates
 Add phantom time trigger

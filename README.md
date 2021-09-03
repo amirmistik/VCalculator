@@ -44,6 +44,12 @@ f - degree
 
 ____
 
+### 1.2.6 BETA
+
+Optimize code
+
+____
+
 
 ## Future Updates
 Add phantom time trigger

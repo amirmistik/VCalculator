@@ -36,7 +36,9 @@ ____
 ### 1.2.5 BETA
 
 FIX /calc command
+
 __/end (x) (z) (f) (x1) (z1) (f1)__
+
 f - degree
 
 

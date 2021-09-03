@@ -1,4 +1,6 @@
 C:\Users\Amirmistik play\IdeaProjects\VCalculator\src\main\java\me\vcalculator\vcalculator\Main.java
-C:\Users\Amirmistik play\IdeaProjects\VCalculator\src\main\java\me\vcalculator\vcalculator\commands\nether.java
-C:\Users\Amirmistik play\IdeaProjects\VCalculator\src\main\java\me\vcalculator\vcalculator\commands\over.java
-C:\Users\Amirmistik play\IdeaProjects\VCalculator\src\main\java\me\vcalculator\vcalculator\commands\ClearCommands.java
+C:\Users\Amirmistik play\IdeaProjects\VCalculator\src\main\java\me\vcalculator\vcalculator\commands\Nether.java
+C:\Users\Amirmistik play\IdeaProjects\VCalculator\src\main\java\me\vcalculator\vcalculator\commands\Over.java
+C:\Users\Amirmistik play\IdeaProjects\VCalculator\src\main\java\me\vcalculator\vcalculator\commands\Calculator.java
+C:\Users\Amirmistik play\IdeaProjects\VCalculator\src\main\java\me\vcalculator\vcalculator\commands\End.java
+C:\Users\Amirmistik play\IdeaProjects\VCalculator\src\main\java\me\vcalculator\vcalculator\commands\Me.java
